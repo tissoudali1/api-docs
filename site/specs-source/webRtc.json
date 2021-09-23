@@ -884,7 +884,7 @@
                "code": {
                   "type": "integer",
                   "format": "int32",
-                  "example": "500"
+                  "example": 500
                },
                "message": {
                   "type": "string",
