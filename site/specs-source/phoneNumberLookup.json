@@ -233,14 +233,6 @@
                 },
                 "schema": {
                   "$ref": "#/components/schemas/OrderResponse"
-                },
-                "examples": {
-                  "Order Response": {
-                    "value": {
-                      "requestId": "004223a0-8b17-41b1-bf81-20732adf5590",
-                      "status": "IN_PROGRESS"
-                    }
-                  }
                 }
               }
             }
