@@ -17,6 +17,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Debug WebRTC
+      run: |
+        echo dig ---
+        dig +trace api.webrtc.bandwidth.com
+        echo traceroute ---
+        traceroute -m16 api.webrtc.bandwidth.com
     - name: Validate PHP
       uses: ./.github/actions/validate-php
       env:
